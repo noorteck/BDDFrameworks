@@ -1,0 +1,1709 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 873686326,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is logged in and in CRM Home page",
+            "match": {
+              "location": "Hooks.login()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7238626346,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeTest(Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Create new email content template",
+        "description": "",
+        "id": "campaigns-page-validation;create-new-email-content-template;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 944389867,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2330056701,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User navigates to campaings page",
+            "match": {
+              "location": "CampaingStepDefinition.navigateToPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 350737674,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks template",
+            "match": {
+              "location": "CampaingStepDefinition.clickTemplate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 303851633,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks new content template",
+            "match": {
+              "location": "CampaingStepDefinition.clickContent()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1157168699,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters name, subject, body in the field \"Sanjay\", \"Batch 2\", \"Start date Feb 22, 2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sanjay",
+                  "offset": 46
+                },
+                {
+                  "val": "Batch 2",
+                  "offset": 56
+                },
+                {
+                  "val": "Start date Feb 22, 2020",
+                  "offset": 67
+                }
+              ],
+              "location": "CampaingStepDefinition.enterEmailData(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 165215061,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks save button",
+            "match": {
+              "location": "CampaingStepDefinition.saveClick()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111780,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should be directed to the Content Templates Page",
+            "match": {
+              "location": "CampaingStepDefinition.inContentTempPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 558743838,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is logged in and in CRM Home page",
+            "match": {
+              "location": "Hooks.login()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6112867338,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeTest(Scenario)"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Create new email content template",
+        "description": "",
+        "id": "campaigns-page-validation;create-new-email-content-template;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1615422752,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4566742244,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User navigates to campaings page",
+            "match": {
+              "location": "CampaingStepDefinition.navigateToPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 527987193,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks template",
+            "match": {
+              "location": "CampaingStepDefinition.clickTemplate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 400565245,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks new content template",
+            "match": {
+              "location": "CampaingStepDefinition.clickContent()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1811157853,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters name, subject, body in the field \"Rajesh\", \"Batch 2\", \"Start date FEb 22, 2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rajesh",
+                  "offset": 46
+                },
+                {
+                  "val": "Batch 2",
+                  "offset": 56
+                },
+                {
+                  "val": "Start date FEb 22, 2020",
+                  "offset": 67
+                }
+              ],
+              "location": "CampaingStepDefinition.enterEmailData(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 247209391,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks save button",
+            "match": {
+              "location": "CampaingStepDefinition.saveClick()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46192,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should be directed to the Content Templates Page",
+            "match": {
+              "location": "CampaingStepDefinition.inContentTempPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 961135285,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is logged in and in CRM Home page",
+            "match": {
+              "location": "Hooks.login()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7121479298,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeTest(Scenario)"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Create new email content template",
+        "description": "",
+        "id": "campaigns-page-validation;create-new-email-content-template;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1008121116,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2927903623,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User navigates to campaings page",
+            "match": {
+              "location": "CampaingStepDefinition.navigateToPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 587265950,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks template",
+            "match": {
+              "location": "CampaingStepDefinition.clickTemplate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 359615507,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks new content template",
+            "match": {
+              "location": "CampaingStepDefinition.clickContent()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1137388662,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters name, subject, body in the field \"Rajesh\", \"Batch 2\", \"Start date FEb 22, 2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rajesh",
+                  "offset": 46
+                },
+                {
+                  "val": "Batch 2",
+                  "offset": 56
+                },
+                {
+                  "val": "Start date FEb 22, 2020",
+                  "offset": 67
+                }
+              ],
+              "location": "CampaingStepDefinition.enterEmailData(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 167806794,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks save button",
+            "match": {
+              "location": "CampaingStepDefinition.saveClick()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 191118,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should be directed to the Content Templates Page",
+            "match": {
+              "location": "CampaingStepDefinition.inContentTempPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 713560230,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is logged in and in CRM Home page",
+            "match": {
+              "location": "Hooks.login()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6048407230,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeTest(Scenario)"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Create new email content template",
+        "description": "",
+        "id": "campaigns-page-validation;create-new-email-content-template;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 1045822901,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2188744826,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User navigates to campaings page",
+            "match": {
+              "location": "CampaingStepDefinition.navigateToPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 242519941,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks template",
+            "match": {
+              "location": "CampaingStepDefinition.clickTemplate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 263288716,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks new content template",
+            "match": {
+              "location": "CampaingStepDefinition.clickContent()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1095459707,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters name, subject, body in the field \"Rajesh\", \"Batch 2\", \"Start date FEb 22, 2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rajesh",
+                  "offset": 46
+                },
+                {
+                  "val": "Batch 2",
+                  "offset": 56
+                },
+                {
+                  "val": "Start date FEb 22, 2020",
+                  "offset": 67
+                }
+              ],
+              "location": "CampaingStepDefinition.enterEmailData(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 164456582,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks save button",
+            "match": {
+              "location": "CampaingStepDefinition.saveClick()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89565,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should be directed to the Content Templates Page",
+            "match": {
+              "location": "CampaingStepDefinition.inContentTempPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 611503769,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is logged in and in CRM Home page",
+            "match": {
+              "location": "Hooks.login()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6973011065,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeTest(Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Create new email content template",
+        "description": "",
+        "id": "campaigns-page-validation;create-new-email-content-template;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 1283244004,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2064442830,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User navigates to campaings page",
+            "match": {
+              "location": "CampaingStepDefinition.navigateToPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 738887283,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks template",
+            "match": {
+              "location": "CampaingStepDefinition.clickTemplate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 496925887,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks new content template",
+            "match": {
+              "location": "CampaingStepDefinition.clickContent()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1099676650,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters name, subject, body in the field \"Rajesh\", \"Batch 2\", \"Start date FEb 22, 2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rajesh",
+                  "offset": 46
+                },
+                {
+                  "val": "Batch 2",
+                  "offset": 56
+                },
+                {
+                  "val": "Start date FEb 22, 2020",
+                  "offset": 67
+                }
+              ],
+              "location": "CampaingStepDefinition.enterEmailData(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 142033682,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks save button",
+            "match": {
+              "location": "CampaingStepDefinition.saveClick()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62413,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should be directed to the Content Templates Page",
+            "match": {
+              "location": "CampaingStepDefinition.inContentTempPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "Campaigns Page Validation",
+    "description": "",
+    "id": "campaigns-page-validation",
+    "keyword": "Feature",
+    "uri": "Campaings.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 559493854,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is logged in and in CRM Home page",
+            "match": {
+              "location": "Hooks.login()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 6,
+            "value": "#this is not data driven, because we are not passing any data"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 5828406454,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeTest(Scenario)"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Delete first row from froms table",
+        "description": "",
+        "id": "forms-page-functionality-validation;delete-first-row-from-froms-table",
+        "after": [
+          {
+            "result": {
+              "duration": 1033477789,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2331170970,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User navigates to forms page",
+            "match": {
+              "location": "FormsStepDefinition.navtoPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3409041799,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click delete icon",
+            "match": {
+              "location": "FormsStepDefinition.clickDelIcon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 363139559,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks delete button",
+            "match": {
+              "location": "FormsStepDefinition.clicDelButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75107,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should be directed to Forms page",
+            "match": {
+              "location": "FormsStepDefinition.isFormPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 581158275,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is logged in and in CRM Home page",
+            "match": {
+              "location": "Hooks.login()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 26,
+            "value": "#Cucumber Data Driven Approach type 2 using dataTables with Scenario"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 6253422146,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeTest(Scenario)"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Create new form",
+        "description": "",
+        "id": "forms-page-functionality-validation;create-new-form",
+        "after": [
+          {
+            "result": {
+              "duration": 1009656057,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2416807125,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User navigates to forms page",
+            "match": {
+              "location": "FormsStepDefinition.navtoPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 379109219,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User clicks New",
+            "match": {
+              "location": "TasksStepDefinition.clickNew()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 852719380,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User enters  form data",
+            "match": {
+              "location": "FormsStepDefinition.enterData(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "introductionText",
+                  "completionText"
+                ],
+                "line": 32
+              },
+              {
+                "cells": [
+                  "Mike",
+                  "Current Student",
+                  "Databale Approach 2"
+                ],
+                "line": 33
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101136131,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User clicks save",
+            "match": {
+              "location": "FormsStepDefinition.clickSave()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69113,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User should be directed to Active page",
+            "match": {
+              "location": "FormsStepDefinition.toActivePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 27,
+            "name": "@SmokeTest"
+          },
+          {
+            "line": 27,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 793286882,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is logged in and in CRM Home page",
+            "match": {
+              "location": "Hooks.login()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6401335359,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeTest(Scenario)"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "Create new form",
+        "description": "",
+        "id": "forms-page-functionality-validation;create-new-form;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1021082956,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2798089170,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User navigates to forms page",
+            "match": {
+              "location": "FormsStepDefinition.navtoPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 480188226,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User clicks New",
+            "match": {
+              "location": "TasksStepDefinition.clickNew()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 891579511,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User enters form field data \"Tim\",\"Developer\",\"works from home\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tim",
+                  "offset": 29
+                },
+                {
+                  "val": "Developer",
+                  "offset": 35
+                },
+                {
+                  "val": "works from home",
+                  "offset": 47
+                }
+              ],
+              "location": "FormsStepDefinition.enterFormFieldData(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132066616,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User clicks save",
+            "match": {
+              "location": "FormsStepDefinition.clickSave()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40550,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User should be directed to Active page",
+            "match": {
+              "location": "FormsStepDefinition.toActivePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 39,
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "Forms Page functionality Validation",
+    "description": "",
+    "id": "forms-page-functionality-validation",
+    "keyword": "Feature",
+    "uri": "Forms.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 776319316,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is logged in and in CRM Home page",
+            "match": {
+              "location": "Hooks.login()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6130479136,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeTest(Scenario)"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Create tasks without providing any data",
+        "description": "",
+        "id": "tasks-page-functionality-validation;create-tasks-without-providing-any-data",
+        "after": [
+          {
+            "result": {
+              "duration": 985565985,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2173951142,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User navigates to tasks page",
+            "match": {
+              "location": "TasksStepDefinition.navToTask()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 827114466,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks New",
+            "match": {
+              "location": "TasksStepDefinition.clickNew()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 197411088,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User saves the task",
+            "match": {
+              "location": "TasksStepDefinition.saveTask()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100827592,
+              "error_message": "java.lang.AssertionError: expected [The field Title is required] but found [SHould Fail]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:575)\r\n\tat org.testng.Assert.assertEquals(Assert.java:585)\r\n\tat com.noorteck.qa.steps.TasksStepDefinition.expectedError(TasksStepDefinition.java:30)\r\n\tat ✽.Then it should display error \"SHould Fail\"(Tasks.feature:11)\r\n",
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "it should display error \"SHould Fail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SHould Fail",
+                  "offset": 25
+                }
+              ],
+              "location": "TasksStepDefinition.expectedError(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@SmokeTest"
+          },
+          {
+            "line": 6,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 641318575,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is logged in and in CRM Home page",
+            "match": {
+              "location": "Hooks.login()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5772126703,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeTest(Scenario)"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Create tasks with only required field data",
+        "description": "",
+        "id": "tasks-page-functionality-validation;create-tasks-with-only-required-field-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1605966981,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2165231987,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User navigates to tasks page",
+            "match": {
+              "location": "TasksStepDefinition.navToTask()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1109945908,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks New",
+            "match": {
+              "location": "TasksStepDefinition.clickNew()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 831298265,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters task title \"Java Programming\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Java Programming",
+                  "offset": 24
+                }
+              ],
+              "location": "TasksStepDefinition.taskData(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 148953786,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User saves the task",
+            "match": {
+              "location": "TasksStepDefinition.saveTask()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 430052822,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the title of task should be displayed \"Java Programming\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Java Programming",
+                  "offset": 39
+                }
+              ],
+              "location": "TasksStepDefinition.expectedTitle(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 619638639,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is logged in and in CRM Home page",
+            "match": {
+              "location": "Hooks.login()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6193899729,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeTest(Scenario)"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Create tasks with only required field data",
+        "description": "",
+        "id": "tasks-page-functionality-validation;create-tasks-with-only-required-field-data;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1035929885,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2607941635,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User navigates to tasks page",
+            "match": {
+              "location": "TasksStepDefinition.navToTask()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 452710212,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks New",
+            "match": {
+              "location": "TasksStepDefinition.clickNew()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 379247445,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters task title \"Selenium\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Selenium",
+                  "offset": 24
+                }
+              ],
+              "location": "TasksStepDefinition.taskData(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136359021,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User saves the task",
+            "match": {
+              "location": "TasksStepDefinition.saveTask()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 441124989,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the title of task should be displayed \"Selenium\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Selenium",
+                  "offset": 39
+                }
+              ],
+              "location": "TasksStepDefinition.expectedTitle(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 615983766,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is logged in and in CRM Home page",
+            "match": {
+              "location": "Hooks.login()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6143028414,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeTest(Scenario)"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Create tasks with only required field data",
+        "description": "",
+        "id": "tasks-page-functionality-validation;create-tasks-with-only-required-field-data;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1269912974,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2753547677,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User navigates to tasks page",
+            "match": {
+              "location": "TasksStepDefinition.navToTask()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 693564039,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks New",
+            "match": {
+              "location": "TasksStepDefinition.clickNew()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 563761574,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters task title \"Cucumber\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cucumber",
+                  "offset": 24
+                }
+              ],
+              "location": "TasksStepDefinition.taskData(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 164161442,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User saves the task",
+            "match": {
+              "location": "TasksStepDefinition.saveTask()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 954355875,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the title of task should be displayed \"Cucumber\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cucumber",
+                  "offset": 39
+                }
+              ],
+              "location": "TasksStepDefinition.expectedTitle(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "Tasks Page functionality Validation",
+    "description": "",
+    "id": "tasks-page-functionality-validation",
+    "keyword": "Feature",
+    "uri": "Tasks.feature"
+  }
+]
